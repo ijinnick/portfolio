@@ -1,0 +1,11 @@
+# Do not remove this line, otherwise mod_rewrite rules will stop working
+RewriteBase /
+Options +FollowSymLinks
+RewriteEngine On
+
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+
+RewriteRule ^content/(.*)$ index.php?content=$1 [NC,L]
+RewriteRule ^content/(.*)/$ index.php?content=$1 [NC,L]
+

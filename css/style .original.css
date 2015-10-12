@@ -1,0 +1,421 @@
+
+
+@media screen and (max-width: 1200px) {
+    .projects-content{
+      width: 1100px !important;
+      /*background-color: DarkSlateBlue;*/
+    }
+    .box{
+      margin: 0 !important;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .projects-content{
+      width: 1014px !important;
+      /*background-color: DarkSlateGrey;*/
+    }
+    .box{
+      margin: 10px 70px !important;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .projects-content{
+      width: 960px !important;
+      /*background-color: #fff;*/
+    }
+    
+    .box{
+      margin: 10px 55px !important;
+    }
+}
+
+body{
+    color: #fff;
+    margin: 0 auto;
+    padding: 0;
+    min-width: 980px;
+    background-color: #000000;
+    background-image: url('http://portfolio.host22.com/images/bg-marble.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+div {
+    display: block;
+}
+
+h1{
+    margin: 0;
+    width: 270px;
+}
+
+h2{
+    padding-top: 100px
+}
+img{
+    width: 100%;
+    overflow: hidden;
+}
+.fixed{
+    position: fixed !important;
+    top: 0;
+    z-index: 1;
+}
+
+.header{
+    width: 100%;
+    background-color: rgba(0,0,0,0);
+    transition: background .75s ease-in-out;
+   -moz-transition: background .75s ease-in-out;
+   -webkit-transition: background .75s ease-in-out;
+    /*background-color: rgba(255, 255, 255,1);
+    box-shadow: 0 3px 10px #000;
+    -webkit-box-shadow: 0 3px 10px #000;
+    -moz-box-shadow: 0 3px 10px #000;*/
+}
+
+.header a:link,.header a:visited, .header a:active, .header a:hover{
+    color:  DarkSlateGrey !important;
+}
+
+.header-primary{
+    padding: 10px;
+    margin: 0 auto;
+    width: 960px;
+    overflow: hidden;
+    position: relative;
+}
+
+.nav{
+    position: relative;
+    width: 100%;
+    display: table;
+    background-color: rgba(0,0,0,0.5);
+    /*box-shadow: 0 3px 10px #000;
+    -webkit-box-shadow: 0 3px 10px #000;
+    -moz-box-shadow: 0 3px 10px #000;
+    */
+}
+
+.nav li{
+    display: table-cell;
+}
+
+.nav li a{
+    padding: 0 15px;
+}
+
+#nav-primary{
+    width: 960px;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 13pt;
+}
+ul{
+    padding-start: 0px;
+    -webkit-padding-start: 0px;
+    -moz-padding-start: 0px;
+    text-align: center;
+    margin: 0;
+    max-width: 960px;
+    height: 100%;
+    position: relative;
+    z-index: 1000;
+}
+
+
+.submenu li:hover{
+    background-color: GhostWhite;
+    box-shadow: 0 1px 10px #000;
+    -webkit-box-shadow: 0 1px 10px #000;
+    -moz-box-shadow: 0 1px 10px #000;
+}
+
+.slider li{
+    display: table-cell;
+    vertical-align:bottom;
+    padding-bottom: 5px;
+}
+
+.head-title{
+    padding: 0 5px 0 20px;
+}
+
+.list{
+}
+
+.active{
+    background-color: BlueViolet;
+    box-shadow: 0 1px 10px #000;
+    -webkit-box-shadow: 0 1px 10px #000;
+    -moz-box-shadow: 0 1px 10px #000;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+}
+
+/* unvisited link */
+a:link {color: #fff;text-decoration: none;}
+/* visited link */
+a:visited {color: #fff;text-decoration: none;}
+/* mouse over link */
+/*a:hover {color: #FF00FF;}*/
+/* selected link */
+a:active {color: #fff;}
+
+
+.container{
+    margin: 0 auto;
+    max-width: 100%;
+    display: block;
+    background-color: #585858;
+    padding: 10px;
+    margin: 0 auto;
+    border: 1px solid transparent;
+    box-shadow: 0 3px 10px #000;
+    -webkit-box-shadow: 0 3px 10px #000;
+    -moz-box-shadow: 0 3px 10px #000;
+}
+
+.bg-wrapper{
+    font-size: 0; 
+    width: 100%;
+    height: 500px;
+    box-shadow: 0 3px 10px #000;
+    -webkit-box-shadow: 0 3px 10px #000;
+    -moz-box-shadow: 0 3px 10px #000;
+    background-color: rgba(0,0,0,0);
+    transition: background .75s ease-in-out;
+   -moz-transition: background .75s ease-in-out;
+   -webkit-transition: background .75s ease-in-out;
+}
+
+.bg-overlay{
+    background-color: rgba(0,0,0,0.7);
+    transition: background .75s ease-in-out;
+   -moz-transition: background .75s ease-in-out;
+   -webkit-transition: background .75s ease-in-out;
+}
+
+.bg-text{
+    font-size: 32pt;
+    text-align: center;
+    padding-top: 300px;
+}
+
+.big-image{
+    overflow: hidden;
+    display: inline-block;
+    width: 60%;
+    background-color: #808080;
+    height: 100%;
+}
+.left-image{
+    overflow: hidden;
+    display: inline-block;
+    width: 20%;
+    background-color: #606060;
+    height: 100%;
+}
+.right-image{
+    overflow: hidden;
+    display: inline-block;
+    width: 20%;
+    background-color: #666666;
+    height: 100%;
+}
+.project-wrapper{
+    background-color: rgb(255,255,255);
+    color: DarkSlateGrey;
+    width: 100%;
+    min-height: 680px;;
+    box-shadow: inset 0px 10px 20px rgba(0,0,0,1);
+    -webkit-box-shadow: inset 0px 10px 20px rgba(0,0,0,1);
+    -moz-box-shadow: inset 0px 10px 20px rgba(0,0,0,1);
+}
+.projects-content{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 10px 10px 100px 10px
+}
+.about-wrapper{
+    /*background-color: DarkSlateGrey;*/
+    background: url('http://portfolio.host22.com/images/bg-grey.png') repeat left top;
+    width: 100%;
+    min-height: 680px;
+    box-shadow: 0 3px 10px #000;
+    -webkit-box-shadow: 0 3px 10px #000;
+    -moz-box-shadow: 0 3px 10px #000;
+}
+.about-content{
+    width: 960px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+}
+.contact-wrapper{
+    background-color: rgb(255, 255, 255);
+    color: DarkSlateGrey;
+    width: 100%;
+    min-height: 600px;
+    box-shadow: inset 0px 10px 20px rgba(0,0,0,1);
+    -webkit-box-shadow: inset 0px 10px 20px rgba(0,0,0,1);
+    -moz-box-shadow: inset 0px 10px 20px rgba(0,0,0,1);
+}
+.contact-content{
+    width: 560px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.contact-content input{
+    width: 300px;
+    height: 20px
+}
+.footer-wrapper{
+    background-color: rgba(255,255,255,.3);
+    width: 100%;
+    min-height: 150px;
+    box-shadow: 0 3px 10px #000;
+    -webkit-box-shadow: 0 3px 10px #000;
+    -moz-box-shadow: 0 3px 10px #000;
+}
+.footer-content{
+    width: 960px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.box-list{
+    display: inline-block;
+}
+
+.box{
+    background-color: WhiteSmoke;
+    display: inline-block;
+    margin: 18px;
+    width: 360px;
+    height: 270px;
+    border-radius: .3em;
+    -moz-border-radius: .3em;
+    -webkit-border-radius: .3em;
+    box-shadow: 0 0 1px #000;
+    -webkit-box-shadow: 0 0 1px #000;
+    -moz-box-shadow: 0 0 1px #000;
+    /*opacity: .5;
+    transition: opacity .3s ease-out;
+    -moz-transition: opacity .3s ease-out;
+    -webkit-transition: opacity .3s ease-out;
+    -o-transition: opacity .3s ease-out;
+    */
+}
+#box0{background: url('http://portfolio.host22.com/images/thumbnails/wago.png')}
+#box1{background: url('http://portfolio.host22.com/images/thumbnails/obrats.png')}
+#box2{background: url('http://portfolio.host22.com/images/thumbnails/timelog.png')}
+#box3{background: url('http://portfolio.host22.com/images/thumbnails/bootstrap.png')}
+#box4{background: url('http://portfolio.host22.com/images/thumbnails/wordpress.png')}
+#box5{background: url('http://portfolio.host22.com/images/thumbnails/amped.png')}
+#box6{background: url('http://portfolio.host22.com/images/thumbnails/bouqs.png')}
+
+.box-overlay{
+    width: 360px;
+    margin-top: 270px;
+    height: 0px;
+    background-color: rgba(0,0,0,.5);
+    transition: all .7s;
+    -moz-transition: all .7s;
+    -webkit-transition: all .7s;
+    -o-transition: all .7s;
+}
+
+.box:hover{
+    cursor: pointer;
+}
+
+.hidden{
+    display: none;
+}
+
+#modal{
+    background-color: #000;
+    color: #fff;
+    opacity: .8;
+    padding: 10px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+#modal h2{
+    padding-top: 0;
+}
+
+.image-content{
+    width: 701px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.modal{
+    position: absolute;
+    background-color: #fff;
+    color: DarkSlateGrey;
+    border-radius: .5em;
+    -webkit-border-radius: .5em;
+    -moz-border-radius: .5em;
+    top: 25px;
+    margin: 0 auto;
+    border: 1px solid;
+    height: 570px;
+    width: 800px;
+    left: 0;
+    right: 0;
+}
+
+.hidden{
+    display: none;
+}
+
+.overlay{
+    background-color: rgba(0,0,0,.6);
+    width:100%; 
+    height:100%; 
+    z-index:10;
+    top:0; 
+    left:0; 
+    position:fixed;
+}
+
+.center{
+    text-align: center;
+}
+
+.close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.loading{
+    background: url('http://portfolio.host22.com/images/loading.gif') no-repeat;
+    background-color: rgba(255,255,255,0.6);
+    transition: background-image .75s ease-in-out;
+    -moz-transition: background-image .75s ease-in-out;
+    -webkit-transition: background-image .75s ease-in-out;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    width:      100%;
+    height:     100%;
+    z-index:    10;
+    top:        0;
+    left:       0;
+    position:   fixed;
+}
+
+#submit-btn:hover{
+    cursor:pointer;
+}
