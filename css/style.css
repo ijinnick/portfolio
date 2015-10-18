@@ -239,9 +239,9 @@ a:active {color: #fff;}
     color: DarkSlateGrey;
     width: 100%;
     min-height: 680px;;
-    box-shadow: inset 0px 10px 20px rgba(0,0,0,1);
-    -webkit-box-shadow: inset 0px 10px 20px rgba(0,0,0,1);
-    -moz-box-shadow: inset 0px 10px 20px rgba(0,0,0,1);
+    box-shadow: inset 0px 5px 25px rgba(0,0,0,1)
+    -webkit-box-shadow: inset 0px 5px 25px rgba(0,0,0,1)
+    -moz-box-shadow: inset 0px 5px 25px rgba(0,0,0,1)
 }
 .projects-content{
     width: 1200px;
@@ -268,9 +268,9 @@ a:active {color: #fff;}
     color: DarkSlateGrey;
     width: 100%;
     min-height: 600px;
-    box-shadow: inset 0px 10px 20px rgba(0,0,0,1);
-    -webkit-box-shadow: inset 0px 10px 20px rgba(0,0,0,1);
-    -moz-box-shadow: inset 0px 10px 20px rgba(0,0,0,1);
+    box-shadow: inset 0px 5px 25px rgba(0,0,0,1)
+    -webkit-box-shadow: inset 0px 5px 25px rgba(0,0,0,1)
+    -moz-box-shadow: inset 0px 5px 25px rgba(0,0,0,1)
 }
 .contact-content{
     width: 560px;
